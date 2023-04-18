@@ -1,0 +1,24 @@
+{
+  "name": "@bundled-es-modules/cookie",
+  "version": "1.0.0",
+  "description": "mirror of cookie, bundled and exposed as ES module",
+  "author": "Pascal Schilp <pascalschilp@gmail.com>",
+  "main": "index.js",
+  "type": "module",
+  "exports": {
+    ".": "./index.js"
+  },
+  "scripts": {
+    "dev": "node --watch dev.js",
+    "build": "esbuild source.js --bundle --format=esm --outfile=index.js"
+  },
+  "keywords": [],
+  "files": [
+    "index.js"
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "cookie": "^0.5.0",
+    "esbuild": "^0.17.17"
+  }
+}

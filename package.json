@@ -22,7 +22,7 @@
   ],
   "license": "ISC",
   "dependencies": {
-    "cookie": "^0.5.0"
+    "cookie": "^0.7.1"
   },
   "devDependencies": {
     "esbuild": "^0.17.17"

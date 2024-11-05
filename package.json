@@ -17,7 +17,8 @@
   },
   "scripts": {
     "dev": "node --watch dev.js",
-    "build": "esbuild source.js --bundle --format=esm --outfile=index.js"
+    "build": "esbuild source.js --bundle --format=esm --outfile=index.js",
+    "release": "release publish"
   },
   "keywords": [],
   "files": [
@@ -29,6 +30,7 @@
     "cookie": "^0.7.1"
   },
   "devDependencies": {
+    "@ossjs/release": "^0.8.1",
     "esbuild": "^0.17.17"
   }
 }
